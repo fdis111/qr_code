@@ -6,8 +6,7 @@
 npx create-expo-app@latest
 ```
 
-
-3. Reset Project 
+3. Reset Project
 
 ```bash
 yarn reset-project
@@ -20,3 +19,7 @@ Start a development server
 ```bash
 npx expo start
 ```
+
+4. [Create routes](https://docs.expo.dev/develop/file-based-routing/)
+
+- Update `index.ts`
