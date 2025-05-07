@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
 import React from "react";
+import { StyleSheet } from "react-native";
 import { Tabs } from "expo-router";
 
 import { Info, List, QrCode } from "lucide-react-native";
@@ -31,6 +31,13 @@ const TabsLayout = () => {
         options={{
           title: "About",
           tabBarIcon: ({ color, size }) => <Info size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="codes/[id]"
+        options={{
+          href: null,
+          title: "Details",
         }}
       />
     </Tabs>
