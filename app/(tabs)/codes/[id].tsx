@@ -19,7 +19,7 @@ export default function Details() {
       </View>
       <View>
         <TouchableOpacity onPress={() => {}} style={styles.button}>
-          <Text style={styles.buttonText}>Download Qr Code</Text>
+          <Text style={styles.buttonText}>Share Qr Code</Text>
         </TouchableOpacity>
       </View>
     </View>
